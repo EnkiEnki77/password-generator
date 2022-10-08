@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    * {
+        @apply box-border 
+    }
+
+    body, html, #__next{
+        @apply m-0 p-0 w-full h-full font-jetBrains
+    }
+
+    h1{
+        @apply font-bold text-[24px] md:text-[32px] uppercase leading-[32px] md:leading-[42px] 
+    }
+    
+    h2{
+        @apply font-bold text-[18px] md:text-[24px] uppercase leading-[24px] md:leading-[32px] 
+    }
+
+    p{
+        @apply font-bold text-[16px] md:text-[18px]  leading-[21px] md:leading-[24px] 
+    }
+   
+}
