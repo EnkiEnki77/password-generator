@@ -8,7 +8,7 @@ import Title from '../components/Title'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center bg-black px-4 py-16 gap-4 ">
+    <div className="flex min-h-screen flex-col items-center bg-black px-4 md:px-[116px] py-16 gap-4 ">
       <Head>
         <title>Password Generator</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
