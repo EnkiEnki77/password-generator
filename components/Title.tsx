@@ -4,7 +4,7 @@ type Props = {}
 
 const Title = (props: Props) => {
   return (
-    <p className="text-grey capitalize">password generator</p>
+    <p className="text-grey capitalize ">password generator</p>
   )
 }
 
